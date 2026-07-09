@@ -878,3 +878,9 @@ footer{
     color:#555;
     font-size:18px;
 }
+nav ul li a.active{
+    color:#2563EB;
+    font-weight:700;
+    border-bottom:3px solid #2563EB;
+    padding-bottom:5px;
+}
