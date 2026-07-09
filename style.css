@@ -797,3 +797,50 @@ body.dark-mode li a{
 body.dark-mode footer{
     background:black;
 }
+/* Footer */
+
+footer{
+    background:#0f172a;
+    color:white;
+    padding:50px 8%;
+    text-align:center;
+}
+
+.footer-content h3{
+    font-size:30px;
+    margin-bottom:10px;
+}
+
+.footer-content p{
+    color:#cbd5e1;
+}
+
+.footer-icons{
+    margin:25px 0;
+}
+
+.footer-icons a{
+
+    color:white;
+
+    font-size:28px;
+
+    margin:0 15px;
+
+    transition:.3s;
+
+}
+
+.footer-icons a:hover{
+
+    color:#2563EB;
+
+}
+
+.copyright{
+
+    margin-top:25px;
+
+    font-size:15px;
+
+}
