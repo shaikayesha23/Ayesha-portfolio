@@ -396,3 +396,9 @@ display:none;
     transform:translateY(-5px);
     box-shadow:0 10px 20px rgba(37,99,235,.3);
 }
+footer{
+    background:#0f172a;
+    color:white;
+    text-align:center;
+    padding:25px;
+}
