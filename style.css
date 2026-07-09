@@ -756,3 +756,44 @@ footer{
 .project-buttons a:hover{
     background:#1d4ed8;
 }
+/* Dark Mode */
+
+body.dark-mode{
+    background:#0f172a;
+    color:#ffffff;
+}
+
+body.dark-mode nav{
+    background:#1e293b;
+}
+
+body.dark-mode .hero,
+body.dark-mode .about,
+body.dark-mode .skills,
+body.dark-mode .projects,
+body.dark-mode .certifications,
+body.dark-mode .education,
+body.dark-mode .achievements,
+body.dark-mode .contact{
+    background:#111827;
+}
+
+body.dark-mode .skill-card,
+body.dark-mode .project-card,
+body.dark-mode .certificate-card,
+body.dark-mode .education-card,
+body.dark-mode .achievement-card{
+    background:#1e293b;
+    color:white;
+}
+
+body.dark-mode p,
+body.dark-mode h3,
+body.dark-mode h4,
+body.dark-mode li a{
+    color:white;
+}
+
+body.dark-mode footer{
+    background:black;
+}
