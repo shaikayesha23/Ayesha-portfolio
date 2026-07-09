@@ -189,15 +189,12 @@ nav ul li a:hover{
 }
 
 .right img{
-
-    width:380px;
-
+    width:350px;
+    height:350px;
+    object-fit:cover;
+    display:block;
     border-radius:50%;
-
-    border:8px solid #2563EB;
-
-    box-shadow:0 20px 40px rgba(0,0,0,.15);
-
+    border:6px solid #2563EB;
 }
 
 /* Responsive */
