@@ -844,3 +844,37 @@ footer{
     font-size:15px;
 
 }
+/* Stats */
+
+.stats{
+    padding:70px 8%;
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(180px,1fr));
+    gap:25px;
+    background:#ffffff;
+}
+
+.stat-box{
+    background:#f8fafc;
+    padding:35px;
+    border-radius:15px;
+    text-align:center;
+    box-shadow:0 10px 25px rgba(0,0,0,.08);
+    transition:.3s;
+}
+
+.stat-box:hover{
+    transform:translateY(-10px);
+    box-shadow:0 20px 35px rgba(37,99,235,.2);
+}
+
+.stat-box h2{
+    font-size:42px;
+    color:#2563EB;
+    margin-bottom:10px;
+}
+
+.stat-box p{
+    color:#555;
+    font-size:18px;
+}
