@@ -839,14 +839,5 @@ footer{
     opacity:1;
     transform:translateY(0);
 }
-.logo{
-    font-size:38px;
-    font-weight:700;
-    color:white;
-    margin:0;
-}
 
-.logo span{
-    color:#2563EB;
-}
 
