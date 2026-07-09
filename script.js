@@ -1,3 +1,4 @@
+document.body.classList.add("dark-mode");
 const text = [
     "Aspiring Software Engineer",
     "Java Developer",
