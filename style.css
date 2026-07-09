@@ -858,5 +858,20 @@ footer{
     opacity:1;
     transform:translateY(0);
 }
+nav ul{
+    display:flex !important;
+    list-style:none !important;
+    margin:0 !important;
+    padding:0 !important;
+}
+
+nav ul li{
+    display:block !important;
+    margin-left:35px !important;
+}
+
+nav ul li::marker{
+    content:"";
+}
 
 
