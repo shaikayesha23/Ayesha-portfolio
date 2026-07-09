@@ -639,4 +639,20 @@ footer{
     text-align:center;
     padding:25px;
 }
+#typing{
+    color:#2563EB;
+    font-weight:600;
+}
 
+#typing::after{
+    content:"|";
+    animation:blink .8s infinite;
+}
+
+@keyframes blink{
+
+    50%{
+        opacity:0;
+    }
+
+}
