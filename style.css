@@ -496,8 +496,10 @@ display:none;
 }
 
 .certificate-card p{
-    color:#555;
+    color:#CBD5E1;
     font-size:16px;
+    line-height:26px;
+    margin-bottom:18px;
 }
 /* Education */
 
