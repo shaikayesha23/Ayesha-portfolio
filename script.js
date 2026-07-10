@@ -1,9 +1,9 @@
 document.body.classList.add("dark-mode");
 const text = [
-    "Aspiring Software Engineer",
+    "Software Engineer",
     "Java Developer",
     "Python Developer",
-    "AI Enthusiast"
+    "AI & Machine Learning Enthusiast"
 ];
 
 let count = 0;
