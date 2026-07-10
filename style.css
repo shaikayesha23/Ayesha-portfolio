@@ -451,32 +451,11 @@ display:none;
     color:#2563EB;
     margin-bottom:50px;
 }
-
-.certificate-card{
-    background:#1E293B;
-    padding:30px;
-    border-radius:18px;
-    text-align:center;
-    transition:.3s ease;
-    box-shadow:0 10px 25px rgba(0,0,0,.2);
-}
-
-.certificate-card:hover{
-    transform:translateY(-8px);
-    box-shadow:0 20px 35px rgba(37,99,235,.25);
-}
-
-.certificate-card h3{
-    color:#fff;
-    font-size:28px;
-    margin-bottom:15px;
-}
-
-.certificate-card p{
-    color:#CBD5E1;
-    font-size:17px;
-    line-height:28px;
-    margin-bottom:20px;
+.certificate-container{
+    display:grid;
+    grid-template-columns:repeat(2,1fr);
+    gap:30px;
+    margin-top:40px;
 }
 
 .certificate-card a{
