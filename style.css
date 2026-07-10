@@ -460,14 +460,14 @@ display:none;
 
 .certificate-card a{
     display:inline-block;
-    margin-top:15px;   /* Increase to 25px or 30px if you want more space */
+    margin-top:auto;
+    align-self:center;
     padding:12px 25px;
     background:#2563EB;
     color:#fff;
     text-decoration:none;
     border-radius:8px;
     font-weight:600;
-    transition:.3s;
 }
 }
 
