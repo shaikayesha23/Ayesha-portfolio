@@ -460,6 +460,7 @@ display:none;
 
 .certificate-card a{
     display:inline-block;
+    margin-top:20px;   /* Increase to 25px or 30px if you want more space */
     padding:12px 25px;
     background:#2563EB;
     color:#fff;
@@ -467,6 +468,7 @@ display:none;
     border-radius:8px;
     font-weight:600;
     transition:.3s;
+}
 }
 
 .certificate-card a:hover{
