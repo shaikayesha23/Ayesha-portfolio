@@ -4,10 +4,6 @@ Welcome to my personal portfolio website!
 
 This portfolio showcases my skills, projects, certifications, education, and achievements as a Computer Science Engineering student passionate about Software Development and Artificial Intelligence.
 
-## 🚀 Live Demo
-
-🔗 https://your-vercel-link.vercel.app
-
 ---
 
 ## ✨ Features
