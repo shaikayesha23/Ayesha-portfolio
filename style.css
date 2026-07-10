@@ -268,7 +268,26 @@ display:none;
 }
 
 }
-.about-text{
+/* About */
+
+.about{
+    padding:100px 8%;
+    background:#ffffff;
+}
+
+.about h2{
+    text-align:center;
+    font-size:42px;
+    color:#2563EB;
+    margin-bottom:50px;
+}
+
+.about-content{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+about-text{
     width:80%;
     background:#fff;
     padding:45px;
