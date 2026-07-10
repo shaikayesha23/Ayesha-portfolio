@@ -865,5 +865,15 @@ nav ul li{
 nav ul li::marker{
     content:"";
 }
+body.dark-mode .about-text{
+    background:#1e293b;
+}
 
+body.dark-mode .about-text p{
+    color:#e2e8f0;
+}
+
+body.dark-mode .about-text strong{
+    color:#60a5fa;
+}
 
