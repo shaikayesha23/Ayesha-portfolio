@@ -287,26 +287,33 @@ display:none;
     justify-content:center;
     align-items:center;
 }
-about-text{
+.about-text{
     width:80%;
-    background:#fff;
     padding:45px;
+    background:rgba(255,255,255,0.03);
+    backdrop-filter:blur(12px);
+    -webkit-backdrop-filter:blur(12px);
+
     border-radius:20px;
-    text-align:left;
-    box-shadow:0 15px 35px rgba(0,0,0,.08);
-    transition:.3s ease;
+
+    border:1px solid rgba(255,255,255,0.08);
+
+    box-shadow:0 10px 30px rgba(0,0,0,.15);
+
+    transition:all .3s ease;
 }
 
 .about-text:hover{
-    transform:translateY(-8px);
-    box-shadow:0 20px 45px rgba(37,99,235,.18);
+    transform:translateY(-5px);
+    box-shadow:0 15px 40px rgba(37,99,235,.15);
+    border-color:rgba(37,99,235,.35);
 }
 
 .about-text p{
     font-size:18px;
-    line-height:32px;
-    color:#555;
-    margin-bottom:20px;
+    line-height:34px;
+    color:#e5e7eb;
+    margin-bottom:22px;
 }
 /* Skills */
 
