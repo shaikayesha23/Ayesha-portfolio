@@ -876,4 +876,66 @@ body.dark-mode .about-text p{
 body.dark-mode .about-text strong{
     color:#60a5fa;
 }
+.about-highlights{
+
+    margin-top:35px;
+
+    display:grid;
+
+    grid-template-columns:repeat(2,1fr);
+
+    gap:20px;
+
+}
+
+.highlight{
+
+    display:flex;
+
+    align-items:center;
+
+    gap:15px;
+
+    padding:18px;
+
+    border-radius:12px;
+
+    background:#f8fafc;
+
+    transition:.3s;
+
+}
+
+.highlight:hover{
+
+    transform:translateY(-5px);
+
+    background:#eef5ff;
+
+}
+
+.highlight h3{
+
+    font-size:28px;
+
+}
+
+.highlight span{
+
+    font-weight:600;
+
+    color:#334155;
+
+}
+body.dark-mode .highlight{
+
+    background:#0f172a;
+
+}
+
+body.dark-mode .highlight span{
+
+    color:white;
+
+}
 
