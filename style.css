@@ -278,7 +278,10 @@ display:none;
 .about h2{
     text-align:center;
     font-size:42px;
-    color:#2563EB;
+    font-weight:700;
+    background:linear-gradient(90deg,#60A5FA,#2563EB);
+    -webkit-background-clip:text;
+    -webkit-text-fill-color:transparent;
     margin-bottom:50px;
 }
 
